@@ -37,7 +37,7 @@ int main()
 
  
    //ex 1
-    int number = 1;
+   /* int number = 1;
     cout << "Enter number" << endl;
     cin >> number;
   
@@ -46,8 +46,46 @@ int main()
             cout << setw(5) << number * j<<'\t';
             if (!(j % 10))cout << endl;
         }
-        
+        */
+    //ex2
+    /*float tmp;
+    int slct;
+    cout<<"Type 1 to convert Fahrenheit to Celsius." << endl;
+    cout<<"Or 2 to convert Celsius to Fahrenheit." << endl;
+    cin >> slct;
+    cout << "Type the unit to convert." << endl;
+    cin >> tmp;
+    if (slct == 1)cout << (tmp - 32) * 5 / 9 << " C" << endl;
+    else if (slct == 2)cout << (tmp * 9 / 5) + 32 << " F" << endl;
+    else cout << "Enter 1 or 2" << endl;*/
+
+    //ex3
+    //char ch;
+    //unsigned int total = 0; 
+    //cout << "Enter number" << endl;;
+    //while ((ch = _getch()) != '\r') 
+    //    total = total * 10 + ch - '0'; //add digit to total*10
+    //cout << "number value  " << total << endl;
    
+    //ex4
+    double n1, n2, result;
+    char op, ch;
+    do {
+        cout << "Enter first number, opator, second number :" << endl;
+        cin >> n1 >> op >> n2;
+        switch (op)
+        {
+        case '+': result = n1 + n2; break;
+        case '-': result = n1 - n2; break;
+        case '*': result = n1 * n2; break;
+        case '/': result = n1 / n2; break;
+        default: cout << "invaild operation or sequence" << endl; result = 0;
+        }
+        cout << "result =  " << result << endl;;
+        cout << "To do another operation (Enter 'y' or 'n') ? " << endl;;
+        cin >> ch;
+    } while (ch != 'n');
+    
  
 }
 
