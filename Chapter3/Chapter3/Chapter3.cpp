@@ -46,6 +46,7 @@ int main()
         {
             cout << number * j << "\t";
         }
+        cout << endl;
     }
  
 }
