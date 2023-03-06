@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: Chapter1, Configuration: Debug x64 ------
+1>Chapter1.cpp
+1>Chapter1.vcxproj -> C:\Users\user\source\repos\Chapter1\x64\Debug\Chapter1.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Elapsed 00:00.880 ==========
