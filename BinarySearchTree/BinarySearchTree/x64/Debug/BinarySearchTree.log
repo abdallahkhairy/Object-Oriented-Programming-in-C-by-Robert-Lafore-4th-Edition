@@ -1,0 +1,28 @@
+﻿  Main.cpp
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(7,2): error C2065: 'BST': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(7,6): error C2146: syntax error: missing ';' before identifier 'btree'
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(7,6): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(8,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(9,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(10,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(11,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(12,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(13,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(14,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(15,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(16,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(19,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(19,17): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(49,2): error C2065: 'Node': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(49,8): error C2065: 'result': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(49,17): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(49,30): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(51,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(51,17): error C2065: 'result': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(53,2): error C2065: 'result': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(53,11): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(53,24): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(55,2): error C2065: 'btree': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(55,17): error C2065: 'result': undeclared identifier
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(59,1): error C2059: syntax error: '}'
+C:\Users\user\source\repos\BinarySearchTree\BinarySearchTree\Main.cpp(59,1): error C2143: syntax error: missing ';' before '}'
