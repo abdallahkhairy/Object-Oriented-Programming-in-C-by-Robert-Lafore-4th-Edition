@@ -40,14 +40,14 @@ int main()
     int number = 1;
     cout << "Enter number" << endl;
     cin >> number;
-    for (int i = 1; i <= 20; i++)
-    {
-        for (int j = 1; j <= 10; j++)
+  
+        for (int j = 1; j <= 200; j++)
         {
-            cout << number * j << "\t";
+            cout << setw(5) << number * j<<'\t';
+            if (!(j % 10))cout << endl;
         }
-        cout << endl;
-    }
+        //cout << endl;
+   
  
 }
 
