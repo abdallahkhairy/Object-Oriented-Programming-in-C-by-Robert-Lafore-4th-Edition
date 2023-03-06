@@ -46,7 +46,7 @@ int main()
             cout << setw(5) << number * j<<'\t';
             if (!(j % 10))cout << endl;
         }
-        //cout << endl;
+        
    
  
 }
