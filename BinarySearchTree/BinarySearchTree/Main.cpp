@@ -1,22 +1,23 @@
 #include <iostream>
 using namespace std;
+#include "BST.h"
 
 int main()
 {
 	//45, 15, 79, 90, 10, 55, 12, 20, 50
 	BST btree;
-	btree.Insert(45);
-	btree.Insert(15);
-	btree.Insert(79);
-	btree.Insert(90);
-	btree.Insert(10);
-	btree.Insert(55);
-	btree.Insert(12);
-	btree.Insert(20);
-	btree.Insert(50);
+	btree.insert(45);
+	btree.insert(15);
+	btree.insert(79);
+	btree.insert(90);
+	btree.insert(10);
+	btree.insert(55);
+	btree.insert(12);
+	btree.insert(20);
+	btree.insert(50);
 
 	cout << " Display the Tree Contenet \n";
-	btree.Preorder(btree.root);
+	btree.preorder(btree.root);
 	/*cout << "\n..............................................................................\n";
 	btree.Inorder(btree.root);
 	cout << "\n..............................................................................\n";
@@ -46,15 +47,13 @@ int main()
 		//	cout << "Maximum is  " << max->data << "\n";
 
 	cout << " \n Delete Items \n ";
-	Node* result = btree.Delete(btree.root, 12);
+	Node* result = btree.delete_bst(btree.root, 12);
 	cout << "\n preorder After Delete 12 \n ";
-	btree.Preorder(result);
+	btree.preorder(result);
 
-	result = btree.Delete(btree.root, 15);
+	result = btree.delete_bst(btree.root, 15);
 	cout << "\n preorder After Delete 15 \n ";
-	btree.Preorder(result);
+	btree.preorder(result);
 
-
-}
 }
 
