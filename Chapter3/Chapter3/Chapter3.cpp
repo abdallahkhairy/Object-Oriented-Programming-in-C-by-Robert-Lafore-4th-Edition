@@ -68,7 +68,7 @@ int main()
     //cout << "number value  " << total << endl;
    
     //ex4
-    double n1, n2, result;
+    /*double n1, n2, result;
     char op, ch;
     do {
         cout << "Enter first number, opator, second number :" << endl;
@@ -86,6 +86,34 @@ int main()
         cin >> ch;
     } while (ch != 'n');
     
- 
+ */
+
+    // ex5
+    /*int rows = 20;
+    for (int i = 1; i <= rows; i++)
+    {
+        for (int j = rows; j > i; j--)cout << ' ';
+        for (int k = 1; k < 2 * i ; k++) cout << 'x';
+        cout << endl;
+    }*/
+    /*int rows = 20;
+    for (int i = rows; i >= 1; i--)
+    {
+        for (int j = rows; j > i; j--)cout << ' ';
+        for (int k = 1; k < 2 * i ; k++) cout << 'x';
+        cout << endl;
+    }*/
+    //ex6
+    /*int n;
+        do
+        {
+            int fact = 1;
+            cout << "Enter a number or 0 to exit: ";
+            cin >> n;
+            for (int i = 1; i <= n; i++)fact *= i;
+            cout << fact << endl;
+
+        } while (n != 0);*/
+
 }
 
