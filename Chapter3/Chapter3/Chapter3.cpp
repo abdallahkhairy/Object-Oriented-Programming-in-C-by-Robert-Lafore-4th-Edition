@@ -21,8 +21,8 @@ int main()
     //}
 
     
- //   unsigned int n1 = 0, n2 = 1, next = 1;
- //   cout << pow(2,(8*sizeof(next))) << endl;
+    //unsigned int n1 = 0, n2 = 1, next = 1;
+    //cout << pow(2,(8*sizeof(next))) << endl;
 	//while (next < pow(2, (8 * sizeof(next)))/2)
 	//{
 	//	
@@ -33,7 +33,7 @@ int main()
 	//}
 
     // showprim.cpp
-// displays prime number distribution
+    // displays prime number distribution
 
  
    //ex 1
@@ -86,7 +86,7 @@ int main()
         cin >> ch;
     } while (ch != 'n');
     
- */
+    */
 
     // ex5
     /*int rows = 20;
@@ -114,6 +114,52 @@ int main()
             cout << fact << endl;
 
         } while (n != 0);*/
+    //ex7
+    /*float initial_amount, in_rate, sum=0 ;
+    int n_years;
+    cout << "Enter initial amount: ";
+    cin >> initial_amount;
+    sum = initial_amount;
+    cout << "Enter number of years: "; 
+    cin >> n_years;
+    cout << "Enter interest rate (percent per year): "; 
+    cin >> in_rate;
+
+    for (int i = 0; i < n_years; i++)
+    {
+        sum = sum + (sum * in_rate/100);
+    }
+    cout << sum << endl;*/
+    //ex8 ...
+    //ex9
+    /*int n_guest, n_chairs, pr =1;
+    cout << "Enter number of Guests ";
+    cin >> n_guest;
+    cout << "Enter number of Chairs ";
+    cin >> n_chairs;
+    for (int i = n_guest; i > (n_guest - n_chairs); i--)pr *= i;
+    cout << pr;*/
+    //ex 10
+    /*float final_amount, in_rate, initial_amount ,sum = 0;
+    int n_years=0;
+    cout << "enter initial amount: ";
+    cin >> initial_amount;
+    sum = initial_amount;
+    cout << "enter final amount: ";
+    cin >> final_amount;
+    cout << "enter interest rate (percent per year): ";
+    cin >> in_rate;
+    while(sum < final_amount)
+    {
+        sum = sum + (sum * in_rate / 100);
+        n_years ++;
+    }
+    cout << n_years << endl;*/ 
+    int a, b, c, d, temp;
+    cout << "Enter a/b and c/d : ";
+    cin >> a >> temp >> b >> temp >> c >> temp >> d;
+    cout << a << '/' << b << ' ' << c << '/' << d;
+
 
 }
 

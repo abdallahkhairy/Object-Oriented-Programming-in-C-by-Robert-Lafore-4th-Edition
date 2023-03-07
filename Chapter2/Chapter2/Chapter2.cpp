@@ -30,14 +30,14 @@ int main()
 	   cout << "Sum = " << ((a * d) + (b * c)) << "\\"<< (b * d) << endl;
 	   */
 
-	/*float po, chil, pe, d;
-	cout << "enter pounds: ";
-	cin >> po;
-	cout << "enter shillings: ";
-	cin >> chil;
-	cout << "enter pence: ";
-	cin >> pe;
-	cout << "decimal pounds = \x9c" << po + pe / 240 + chil / 20;*/
+	   /*float po, chil, pe, d;
+	   cout << "enter pounds: ";
+	   cin >> po;
+	   cout << "enter shillings: ";
+	   cin >> chil;
+	   cout << "enter pence: ";
+	   cin >> pe;
+	   cout << "decimal pounds = \x9c" << po + pe / 240 + chil / 20;*/
 
 
 
