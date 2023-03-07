@@ -36,7 +36,7 @@ int main()
     // displays prime number distribution
 
  
-   //ex 1
+   //********************ex1********************
    /* int number = 1;
     cout << "Enter number" << endl;
     cin >> number;
@@ -47,7 +47,7 @@ int main()
             if (!(j % 10))cout << endl;
         }
         */
-    //ex2
+    //********************ex2********************
     /*float tmp;
     int slct;
     cout<<"Type 1 to convert Fahrenheit to Celsius." << endl;
@@ -59,7 +59,7 @@ int main()
     else if (slct == 2)cout << (tmp * 9 / 5) + 32 << " F" << endl;
     else cout << "Enter 1 or 2" << endl;*/
 
-    //ex3
+    //********************ex3********************
     //char ch;
     //unsigned int total = 0; 
     //cout << "Enter number" << endl;;
@@ -67,7 +67,7 @@ int main()
     //    total = total * 10 + ch - '0'; //add digit to total*10
     //cout << "number value  " << total << endl;
    
-    //ex4
+    //********************ex4********************
     /*double n1, n2, result;
     char op, ch;
     do {
@@ -88,7 +88,7 @@ int main()
     
     */
 
-    // ex5
+    //********************ex5********************
     /*int rows = 20;
     for (int i = 1; i <= rows; i++)
     {
@@ -103,7 +103,7 @@ int main()
         for (int k = 1; k < 2 * i ; k++) cout << 'x';
         cout << endl;
     }*/
-    //ex6
+    //********************ex6********************
     /*int n;
         do
         {
@@ -114,7 +114,7 @@ int main()
             cout << fact << endl;
 
         } while (n != 0);*/
-    //ex7
+    //********************ex7********************
     /*float initial_amount, in_rate, sum=0 ;
     int n_years;
     cout << "Enter initial amount: ";
@@ -131,7 +131,7 @@ int main()
     }
     cout << sum << endl;*/
     //ex8 ...
-    //ex9
+    //********************ex9********************
     /*int n_guest, n_chairs, pr =1;
     cout << "Enter number of Guests ";
     cin >> n_guest;
@@ -139,7 +139,7 @@ int main()
     cin >> n_chairs;
     for (int i = n_guest; i > (n_guest - n_chairs); i--)pr *= i;
     cout << pr;*/
-    //ex 10
+    //********************ex10********************
     /*float final_amount, in_rate, initial_amount ,sum = 0;
     int n_years=0;
     cout << "enter initial amount: ";
@@ -155,10 +155,30 @@ int main()
         n_years ++;
     }
     cout << n_years << endl;*/ 
-    int a, b, c, d, temp;
-    cout << "Enter a/b and c/d : ";
-    cin >> a >> temp >> b >> temp >> c >> temp >> d;
-    cout << a << '/' << b << ' ' << c << '/' << d;
+    //********************ex12********************
+    char ch;
+    do 
+    {
+        int a, b, c, d, num, den;
+        char temp, op;
+        cout << "Enter first fraction: ";
+        cin >> a >> temp >> b;
+        cout << "Operator: ";
+        cin >> op;
+        cout << "Enter second fraction: ";
+        cin >> c >> temp >> d;
+
+        switch (op) 
+        {
+        case '+':cout << "Sum is: " << a * d + b * c << "/" << b * d << endl; break;
+        case '-':cout << "Subtraction is: " << a * d - b * c << "/" << b * d << endl; break;
+        case '*':cout << "Multiplication is: " << a * c << "/" << b * d << endl; break;
+        case '/':cout << "Division is: " << a * d << "/" << b * c << endl; break;
+        default:cout << "Invalid op"; break;
+        }
+        cout << "Do you want to continue (y/n): ";
+        cin >> ch;
+    } while (ch == 'y');
 
 
 }
