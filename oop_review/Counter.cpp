@@ -15,14 +15,12 @@ int Counter::get_count()
 
 Counter Counter::operator++()
 {
-	++count;
 	return Counter(++count);
 }
 
 Counter Counter::operator--()
 {
-	--count;
-		return Counter(count);
+	return Counter(--count);
 }
 
 Counter Counter::operator++(int)

@@ -17,6 +17,8 @@ struct frac { int num, den; };
 struct Time { int hours, minutes, seconds; };
 sterling convert_to_s(double d_pounds);
 Time cTimeToFormat(int scs);
+
+
 int main()
 {	
 	//ex1
@@ -155,7 +157,31 @@ int main()
 	Tsum = cTimeToFormat(total_secs);
 	cout << "Summation is: " << Tsum.hours << ':' << Tsum.minutes << ':' << Tsum.seconds << endl;*/
 
-	//ex12 fakkes b2a
+	//ex12 
+	char ch;
+	do
+	{
+		frac n1,n2;
+		char temp, op;
+		cout << "Enter first fraction: ";
+		cin >> n1.num >> temp >> n1.den;
+		cout << "Operator: ";
+		cin >> op;
+		cout << "Enter second fraction: ";
+		cin >> n2.num >> temp >> n2.den;
+
+		switch (op)
+		{
+		case '+':cout << "Sum is: " << n1.num * n2.den + n1.den * n2.num << "/" << n1.den * n2.den << endl; break;
+		case '-':cout << "Subtraction is: " << n1.num * n2.den - n1.den * n2.num << "/" << n1.den * n2.den << endl; break;
+		case '*':cout << "Multiplication is: " << n1.num * n2.num << "/" << n1.den * n2.den << endl; break;
+		case '/':cout << "Division is: " << n1.num * n2.den << "/" << n1.den * n2.num << endl; break;
+		default:cout << "Invalid op"; break;
+		}
+		cout << "Do you want to continue (y/n): ";
+		cin >> ch;
+	} while (ch == 'y');
+	
 }
 void emp_type(char inital)
 {

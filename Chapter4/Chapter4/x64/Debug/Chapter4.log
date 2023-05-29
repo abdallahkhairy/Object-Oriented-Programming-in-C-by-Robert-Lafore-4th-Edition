@@ -1,4 +1,4 @@
 ﻿  Chapter4.cpp
-C:\Users\user\source\repos\Chapter4\Chapter4\Chapter4.cpp(194,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\source\repos\Chapter4\Chapter4\Chapter4.cpp(196,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\source\repos\Chapter4\Chapter4\Chapter4.cpp(214,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\source\repos\Chapter4\Chapter4\Chapter4.cpp(216,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Chapter4.vcxproj -> C:\Users\user\source\repos\Chapter4\x64\Debug\Chapter4.exe
