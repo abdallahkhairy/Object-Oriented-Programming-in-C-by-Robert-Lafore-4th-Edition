@@ -20,6 +20,11 @@ Distance Distance::add_distance(Distance d)
 	
 	int f = feet + d.feet;
 	double i = inches + d.inches;
+	if (i >= 12.0)
+	{
+		i -= 12.0;
+		f++;
+	}
 	return Distance(f,i);
 }
 

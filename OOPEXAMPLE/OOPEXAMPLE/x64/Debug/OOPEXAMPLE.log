@@ -1,3 +1,4 @@
 ﻿  Main.cpp
 C:\Users\user\source\repos\OOPEXAMPLE\OOPEXAMPLE\Main.cpp(10,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\user\source\repos\OOPEXAMPLE\OOPEXAMPLE\Main.cpp(12,44): warning C4305: 'argument': truncation from 'double' to 'float'
   OOPEXAMPLE.vcxproj -> C:\Users\user\source\repos\OOPEXAMPLE\x64\Debug\OOPEXAMPLE.exe
