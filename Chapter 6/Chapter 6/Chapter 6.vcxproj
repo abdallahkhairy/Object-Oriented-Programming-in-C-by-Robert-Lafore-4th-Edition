@@ -127,19 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Angle.cpp" />
+    <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Chapter 6.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Employee_V2.cpp" />
+    <ClCompile Include="Fraction.cpp" />
     <ClCompile Include="Int.cpp" />
+    <ClCompile Include="CalF.cpp" />
+    <ClCompile Include="SerialNo.cpp" />
+    <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Time.cpp" />
     <ClCompile Include="TollBooth.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Angle.h" />
+    <ClInclude Include="Calculator.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Employee_V2.h" />
+    <ClInclude Include="Fraction.h" />
     <ClInclude Include="Int.h" />
+    <ClInclude Include="CalF.h" />
+    <ClInclude Include="SerialNo.h" />
+    <ClInclude Include="Ship.h" />
     <ClInclude Include="Time.h" />
     <ClInclude Include="TollBooth.h" />
   </ItemGroup>

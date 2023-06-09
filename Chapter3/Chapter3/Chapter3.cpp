@@ -174,7 +174,7 @@ int main()
         case '-':cout << "Subtraction is: " << a * d - b * c << "/" << b * d << endl; break;
         case '*':cout << "Multiplication is: " << a * c << "/" << b * d << endl; break;
         case '/':cout << "Division is: " << a * d << "/" << b * c << endl; break;
-        default:cout << "Invalid op"; break;
+        default:cout << "Invalid op" << endl; break;
         }
         cout << "Do you want to continue (y/n): ";
         cin >> ch;

@@ -116,10 +116,10 @@ int main()
 	cout << endl;*/
 	//************************************ ex12 *******************************************
 	char ch;
-	do
-	{
 	frac n1, n2;
 	char temp, op;
+	do
+	{
 	cout << "Enter first fraction: ";
 	cin >> n1.num >> temp >> n1.den;
 	cout << "Operator: ";
@@ -133,7 +133,7 @@ int main()
 	case '-':cout << "Subtraction is: " << fsub(n1, n2).num << "/" << fsub(n1, n2).den << endl; break;
 	case '*':cout << "Multiplication is: " << fmul(n1, n2).num << "/" << fmul(n1, n2).den << endl; break;
 	case '/':cout << "Division is: " << fdiv(n1, n2).num << "/" << fdiv(n1, n2).den << endl; break;
-	default:cout << "Invalid op"; break;
+	default:cout << "Invalid op" << endl; break;
 	}
 	cout << "Do you want to continue (y/n): ";
 	cin >> ch;
