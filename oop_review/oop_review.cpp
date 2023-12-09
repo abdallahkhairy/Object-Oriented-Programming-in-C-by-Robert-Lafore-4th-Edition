@@ -62,10 +62,10 @@ int main()
 
     Counter co1(5);
     Counter co2(20);
-    Counter co3 = ++co1;
-    cout << co3.get_count() << endl;
-    Counter co4 = co2--;
-    cout << co4.get_count() << endl;
+    ++co1;
+    cout << co1.get_count() << endl;
+    co2--;
+    cout << co2.get_count() << endl;
 
     
 

@@ -8,10 +8,10 @@ public:
 	Counter();
 	Counter(int c);
 	int get_count();
-	Counter operator ++();
-	Counter operator --();
-	Counter operator ++(int);
-	Counter operator --(int);
+	void operator ++();
+	void operator --();
+	void operator ++(int);
+	void operator --(int);
 
 };
 
